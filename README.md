@@ -39,4 +39,26 @@ Document what happens when you reset the project
 
 deleted many unused files and also removed all items from the main page.
 
+## 2. Implementing Mobile Components in React Native
+
+React Native Components and Styling
+
+In React Native, you work with predefined components that translate directly into native components on iOS and Android. These components act as the building blocks of your application, much like HTML elements (such as <div> and <p>) in web development.
+
+For example: - Instead of <div> in web development, you use <View> in React Native. - Instead of <p> for text content, you use <Text>.
+
+By leveraging these predefined components, React Native ensures that your app maintains the native look and feel on both platforms while keeping development efficient.
+
+
+## 3. Implementing Safe Areas, Images, and Touchable Components in React Native
+
+In this task, you will explore essential React Native components like SafeAreaView, Image, ImageBackground, TouchableOpacity, and Dimensions. These components are crucial for building visually appealing and responsive applications.
+
+## 4. Explore More Core Components
+
+React Native provides developers with a set of predefined components that render natively on both iOS and Android. You can find more details here: React Native Components
+
+To gain hands-on experience, you will build a sample app that implements some of these core components. This exercise will help reinforce your understanding and improve your coding efficiency.
+
+Note: Avoid copying and pasting code. Instead, type each line manually to enhance retention and familiarity with the syntax.
 
