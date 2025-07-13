@@ -1,26 +1,35 @@
-# Expo Go Setup - Documentation
+# React Native Expo Go Setup on Ubuntu
 
-## ✅ Setup Process:
+## 📌 Environment Setup Overview
+This documentation describes my process for preparing my development environment on **Ubuntu** to work with **React Native using the Expo Framework**.
 
-1. Visited: https://expo.dev/go
-2. Installed **Expo Go** on my device:
-   - **Device:** Android / iPhone
-   - **Store:** Google Play / App Store
-3. Opened the app and successfully signed in with my Expo account.
+### ✅ Installed Tools:
 
-## 💡 Why Expo Go?
-Expo Go allows running and testing React Native applications directly on a physical device without the need for Android Studio or Xcode emulators. It provides a fast, reliable development workflow for both Android and iOS.
-
----
-
-## 🚧 Challenges Faced:
-_No issues encountered during installation._  
-OR  
-_Example:_  
-- Issue: Could not sign in due to network issue.  
-- Solution: Switched to Wi-Fi and tried again.
+| Tool        | Version        | Status    |
+|-------------|----------------|-----------|
+| **Node.js** | LTS (Recommended) | ✅ Installed |
+| **npm**     | Latest with Node.js | ✅ Installed |
+| **VS Code** | Latest Stable Version | ✅ Installed |
+| **Operating System** | Ubuntu 22.04 LTS (or later) | ✅ Ready |
 
 ---
 
-## 🏁 Current Status:
-✅ My physical device is ready to run Expo projects via QR code scanning.
+## 🔧 Expo Go Installation on Physical Device (Android / iOS)
+
+### Steps Followed:
+
+1️⃣ Visited: [https://expo.dev/go](https://expo.dev/go)  
+2️⃣ Installed **Expo Go** on my physical device via:  
+- **Android:** Google Play Store  
+- **iOS:** App Store  
+
+3️⃣ Opened **Expo Go** on my device.  
+4️⃣ Logged in successfully using my existing Expo account.
+
+---
+
+## 🚩 Problem Encountered During Setup (Ubuntu Specific)
+
+### ❗ **Error Message Example:**
+```shell
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
