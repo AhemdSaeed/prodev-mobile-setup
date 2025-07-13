@@ -1,33 +1,39 @@
-# prodev-mobile-setup
+Setup process and any challenges faced in Mobile Development Environment
+Steps to Install Expo Go
+Setting Up and Testing Your Mobile Development Environment Objective
+Mobile development demands more computational resources compared to web development. To ensure a smooth development experience, we will be using the Expo Framework for React Native, which simplifies mobile app development and testing.
 
->> To successfully complete 
-- Node.js LTS installed
-- VS Code (our recommended IDE)
-- macOS, Linux, or Windows
-- Expo Go installed on your physical device (Android or iOS)
+Visit the official Expo Go homepage: https://expo.dev/go.
+Select the latest SDK version.
+Click on Install for your device:
+Android: Install from the Google Play Store. iOS: Install from the Apple App Store.
+Open the Expo Go app on your device.
+Create a new account or log in if you already have one.
+Create Your First Mobile App
+Create Your First Mobile App
+Set up your first mobile application using the Expo Router template. Document the scaffolding process and understand the file structure of a React Native application using Expo.
 
-## Instructions
+Document what happens when you reset the project
 
-- you should already have Node.js LTS, VS Code
-- This task focuses on setting up Expo Go 
+I placed the command npm run reset-project in the terminal
+appeared a question Do you want to move existing files to /app-example instead of deleting them? (Y/n)
+when answering yes, it moves them to the exsmble app folder and deletes unnecessary files.
+I answered no because I do not want to transfer the files again, I want to delete them permanently
+did these things
+❌ /app deleted.
 
-## Steps to Install Expo Go
+❌ /components deleted.
 
-- Visit the official Expo Go homepage: https://expo.dev/go.
-- Select the latest SDK version.
-- Click on Install for your device:
-     * Android: Install from the Google Play Store.
-     * iOS: Install from the Apple App Store.
-- Open the Expo Go app on your device.
-- Create a new account or log in if you already have one.     
+❌ /hooks deleted.
 
+❌ /constants deleted.
 
-## To install project 
+❌ /scripts deleted.
 
->> npx create-expo-app@latest NameApp <<
+📁 New /app directory created.
 
-## To Start The Project
+📄 app/index.tsx created.
 
-- cd Dir Name folder
+📄 app/_layout.tsx created.
 
->> npx expo start <<
+deleted many unused files and also removed all items from the main page.
